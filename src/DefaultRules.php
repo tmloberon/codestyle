@@ -71,14 +71,8 @@ abstract class DefaultRules
         'declare_strict_types'       => true,
         'ternary_to_null_coalescing' => true,
         'void_return'                => true,
-        'visibility_required'        => [
-            'elements' => [
-                'const',
-                'property',
-                'method',
-            ],
-        ],
-        'yoda_style' => [
+        'modifier_keywords'          => true,
+        'yoda_style'                 => [
             'equal'            => false,
             'identical'        => false,
             'less_and_greater' => false,
@@ -94,7 +88,7 @@ abstract class DefaultRules
      * @param array $additionalRules
      * @param bool  $usingCache
      */
-    public static function create(Finder $finder = null, $additionalRules = [], $usingCache = true): Config
+    public static function create(?Finder $finder = null, $additionalRules = [], $usingCache = true): Config
     {
         $newConfig = new Config();
 

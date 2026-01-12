@@ -102,8 +102,8 @@ final class AutomaticCommentsFixer extends AbstractFixer
 
     private function isPossibleComment(Token $token): bool
     {
-        return stripos($token->getContent(), 'constructor.') !== false ||
-            stripos($token->getContent(), ' Interface ') !== false ||
-            stripos($token->getContent(), ' Class ') !== false;
+        return stripos($token->getContent(), 'constructor.') !== false
+            || stripos($token->getContent(), ' Interface ') !== false
+            || stripos($token->getContent(), ' Class ') !== false;
     }
 }
