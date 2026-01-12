@@ -1,6 +1,6 @@
 {
-  "name": "k10r/codestyle",
-  "description": "Kellerkinder codestyle definitions for different PHP versions.",
+  "name": "tm/codestyle",
+  "description": "Kellerkinder codestyle definitions for different PHP versions. (Continued)",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -13,6 +13,10 @@
     {
       "name": "Kellerkinder GmbH",
       "email": "anfragen@kellerkinder.de"
+    },
+    {
+      "name": "Tobias Matthaiou",
+      "email": "225997+TumTum@users.noreply.github.com"
     }
   ],
   "autoload": {
@@ -21,6 +25,6 @@
     }
   },
   "require": {
-    "friendsofphp/php-cs-fixer": "^3.49.0"
+    "friendsofphp/php-cs-fixer": "^3.92.5"
   }
 }

@@ -9,7 +9,7 @@ final class PHP83 extends DefaultRules
     public static function getRules(): array
     {
         return array_merge(DefaultRules::getRules(), [
-            '@PHP83Migration' => true,
+            '@PHP8x3Migration' => true,
         ]);
     }
 }

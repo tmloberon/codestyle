@@ -9,7 +9,7 @@ final class PHP82 extends DefaultRules
     public static function getRules(): array
     {
         return array_merge(DefaultRules::getRules(), [
-            '@PHP82Migration' => true,
+            '@PHP8x2Migration' => true,
         ]);
     }
 }
